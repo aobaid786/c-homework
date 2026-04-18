@@ -2,12 +2,13 @@
 #include<math.h>
 int main()
 {
-    int number,sum;
-    sum=
+    int number,i;
+    float sum =0.0;
     
     printf("enter a number :");
     scanf("%d", &number);
     for(int i=1; i<=number; i++){
-        printf("%d", 1/i);
+        sum +=1.0/i;
     }
+    printf("sum of series = %f \n", sum);
 }
