@@ -1,20 +1,13 @@
 #include <stdio.h>
-
-int main() {
-    int n;
-    unsigned long long fact = 1;
-
-    printf("Enter a number: ");
-    scanf("%d", &n);
-
-    if (n < 0) {
-        printf("Factorial is not defined for negative numbers.\n");
-    } else {
-        for (int i = 1; i <= n; i++) {
-            fact *= i;
-        }
-        printf("Factorial of %d = %llu\n", n, fact);
+int main(){
+int i,n;
+printf("Enter your number: ");
+scanf("%d",&n);
+int fac=1;
+for(i=1;i<=n;i++){
+    fac=fac*i;
     }
+    printf("%d",fac);
 
-    return 0;
+return 0;
 }
