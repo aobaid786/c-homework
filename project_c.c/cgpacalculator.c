@@ -7,7 +7,7 @@ int main() {
     float totalCredits = 0, totalGradePoints = 0;
     float gradePoint, cgpa;
 
-    printf("===== CGPA CALCULATOR =====\n");
+    printf(" CGPA CALCULATOR \n");
 
     printf("Enter number of subjects: ");
     scanf("%d", &n);
@@ -48,7 +48,7 @@ int main() {
 
     cgpa = totalGradePoints / totalCredits;
 
-    printf("\n====================");
+    printf("\n");
     printf("\nCGPA = %.2f", cgpa);
     printf("\nFailed Subjects = %d", failCount);
 
@@ -57,7 +57,7 @@ int main() {
     else
         printf("\nResult Status : PASS");
 
-    printf("\n====================\n");
+    printf("\n\n");
 
     return 0;
 }
